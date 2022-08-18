@@ -2,6 +2,7 @@
 // function takes in an array
 
 function recursiveBubbleSort(arr, count=0){
+    
     // base case
     if (count>=arr.length){
         return arr
